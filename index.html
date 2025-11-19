@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ashwini — Advanced Profile</title>
+  <meta name="description" content="Ashwini Pandey — 18 | Class 12 | JEE aspirant" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="loader" class="loader">
+    <div class="loader-inner">
+      <svg class="logo" width="64" height="64" viewBox="0 0 24 24"><path fill="none" stroke="#fff" stroke-width="1.6" d="M3 12h18M12 3v18"/></svg>
+      <div class="loader-text">Ashwini</div>
+    </div>
+  </div>
+  <div id="parallax">
+    <div class="layer bg-layer" data-depth="0.08"></div>
+    <svg id="morph-bg" viewBox="0 0 800 600" preserveAspectRatio="none" aria-hidden>
+      <defs><linearGradient id="g1" x1="0" x2="1"><stop offset="0" stop-color="#7c3aed" stop-opacity="0.42"/><stop offset="1" stop-color="#06b6d4" stop-opacity="0.32"/></linearGradient></defs>
+      <path id="p1" d="M0 300 C150 260 350 340 800 300 L800 600 L0 600 Z" fill="url(#g1)"></path>
+    </svg>
+    <canvas id="particles"></canvas>
+  </div>
+  <main class="container" id="mainContent" hidden>
+    <nav class="nav">
+      <div class="nav-left">Ashwini • <span class="muted">JEE ’26</span></div>
+      <div class="nav-right">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#notes" class="nav-link">Notes</a>
+        <button id="themeToggle" class="icon-btn" aria-label="Toggle theme">🌙</button>
+      </div>
+    </nav>
+  </main>
+  <div id="toast" class="toast">Copied!</div>
+  <script src="script.js"></script>
+</body>
+</html>
